@@ -1,0 +1,62 @@
+﻿LIBRARY         EnhanceLib2
+EXPORTS
+		CreateIBufferInstance
+		CreateIBufferInstanceEx
+		CreateIBufferInstanceEx2
+
+		CreateIReadStreamInstance
+		CreateIWriteStreamInstance
+
+		CreateIThreadInstance
+		CreateIThreadInstanceEx
+
+		CreateIFileIniInstance
+
+		CreateICacheInstance
+
+		CreateIPipeClientInstance
+		CreateIPipeServerServiceInstance
+
+		CreateISocketClientInstance
+		CreateISocketServerServiceInstance
+
+		CreateIShareMemoryInstance
+
+		ServiceMain
+
+		RegOpReadDwordA
+		RegOpReadDwordW
+		RegOpReadStringW
+		RegOpReadStringA
+		RegOpReadMultiStringA
+		RegOpReadMultiStringW
+		RegOpWriteDwordA
+		RegOpWriteDwordW
+		RegOpWriteStringA
+		RegOpWriteStringW
+		RegOpReadBinaryA
+		RegOpReadBinaryW
+
+		CreateDataStreamBuffer
+		CloseDataStreamBuffer
+		DataStreamBufferClearAllData
+		DataStreamBufferAddData
+		DataStreamBufferAddDataFront
+		DataStreamBufferGetAllData
+		DataStreamBufferGetData
+		DataStreamBufferGetCurrentDataSize
+		GetGuidText
+
+		LogBase_initW
+		LogBase_initA
+		LogBase_printfW
+		LogBase_printfA
+		LogBase_dumpA
+		LogBase_dumpW
+		LogBase_done
+		LogBase_SetOptStrW
+		LogBase_SetOptStrA
+		LogBase_SetOptIntW
+		LogBase_SetOptIntA
+		LogBase_initExW
+		LogBase_initExA
